@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Займає всю висоту вікна браузера */
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 200px; /* Ширина контейнера */
+    height: 200px; /* Висота контейнера */
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.red {
+    background-color: #FF6B6B;
+    top: 0;
+    left: 0%;
+    z-index: 0;
+}
+
+.blue {
+    background-color: #7F7FFF;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+
+.green {
+    background-color: #4EF58D;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+}
