@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Займає всю висоту вікна браузера */
+    height: 100vh;
     margin: 0;
 }
 
@@ -11,8 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 200px; /* Ширина контейнера */
-    height: 200px; /* Висота контейнера */
+    width: 200px;
+    height: 200px;
 }
 
 .square {
